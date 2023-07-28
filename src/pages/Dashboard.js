@@ -9,7 +9,9 @@ const Dashboard = () => {
     return(
     
       <main>
-       <Navbar/>
+
+       <Navbar/> 
+
       <Search/>
       <img src={loadingImage} alt="loading" className='loading-img' />
     </main>
@@ -17,7 +19,7 @@ const Dashboard = () => {
   }
   return (
     <main>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Search/>
       <Info/>
       <User/>

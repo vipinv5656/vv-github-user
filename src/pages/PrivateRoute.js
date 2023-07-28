@@ -23,7 +23,8 @@ const PrivateRoute = ({children}) => {
 
   const isUser = isAuthenticated && user
   if(!isUser){
-    return <Navigate to='/login'/>
+    return <Navigate to='/Dashboard'/>
+    // return <Navigate to='/login'/>
   }
   return children
 }
